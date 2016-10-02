@@ -3,7 +3,7 @@
    background-color: transparent;
 }
 
-.kill::selection {
+.btn-Data-Kill::selection {
    color: transparent;
    background-color: transparent;
 }
