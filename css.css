@@ -1,1 +1,9 @@
+*::selection {
+   color: blue;
+   background-color: transparent;
+}
 
+.kill::selection {
+   color: transparent;
+   background-color: transparent;
+}
