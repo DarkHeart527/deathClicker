@@ -4,7 +4,7 @@
 }
 
 .btn-Data-Kill::selection {
-   color: transparent;
+   color: black;
    background-color: transparent;
 }
 
