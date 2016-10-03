@@ -82,9 +82,9 @@ function saver() {
 //\/_____________________________________________________________PAGE 9______________________________________________________________________________/\//
 
 function statLoader() {
-	Money =  NUmber(localStorage.Moneystat);
-	clickPower =  NUmber(localStorage.clickPowerstat);
-	timePlayed = NUmber(localStorage.timePlayedstat);
+	Money =  Number(localStorage.Moneystat);
+	clickPower =  Number(localStorage.clickPowerstat);
+	timePlayed = Number(localStorage.timePlayedstat);
 }
 //\/_____________________________________________________________PAGE 10______________________________________________________________________________/\//
 
