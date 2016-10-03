@@ -105,6 +105,6 @@ function loadIntervals() {
 	setInterval( function() { timeDisplay(); }, 1000);
 	setInterval( function() { declare(); }, 1);
 	setInterval( function() { perSecondMoney(); }, 1000);
-	//setInterval( function() { saver() }, 0);
-	//setInterval( function() { statLoader(); }, 1000)
+	setInterval( function() { saver() }, 10);
+	setTimeout( function() { statLoader() }, 5)
 }
