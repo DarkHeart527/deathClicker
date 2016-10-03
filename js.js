@@ -40,7 +40,7 @@ Page 12 - Interval Setter
 var taxAndFee = 1.25;
 
 /* Required Variables */
-var timePlayed = 0;
+var timePlayed = null;
 var Money = null;
 var clickPower = 1;
 var perSecond = null;
