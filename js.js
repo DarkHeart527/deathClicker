@@ -74,17 +74,17 @@ function addTime() {
 
 //\/_____________________________________________________________PAGE 8______________________________________________________________________________/\//
 function saver() {
-	localStorage.addItem = ('Moneystat', Money);
-	localStorage.addItem = ('clickPowerstat', clickPower);
-	localStorage.addItem = ('timePlayedstat', timePlayed);
+	localStorage.Moneystat = Money;
+	localStorage.clickPowerstat = clickPower;
+	localStorage.timePlayedstat = timePLayed;
 }
 
 //\/_____________________________________________________________PAGE 9______________________________________________________________________________/\//
 
 function statLoader() {
-	Money = Money + localStorage.getItem('Moneystat');
-	clickPower = clickPower + localStorage.getItem('clickPowerstat');
-	timePlayed = timePlayed + localStorage.getItem('timePlayedstat');
+	Money =  NUmber(localStorage.Moneystat);
+	clickPower =  NUmber(localStorage.clickPowerstat);
+	timePlayed = NUmber(localStorage.timePlayedstat);
 }
 //\/_____________________________________________________________PAGE 10______________________________________________________________________________/\//
 
