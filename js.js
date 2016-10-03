@@ -76,7 +76,7 @@ function addTime() {
 function saver() {
 	localStorage.Moneystat = Money;
 	localStorage.clickPowerstat = clickPower;
-	localStorage.timePlayedstat = timePLayed;
+	localStorage.timePlayedstat = timePlayed;
 }
 
 //\/_____________________________________________________________PAGE 9______________________________________________________________________________/\//
