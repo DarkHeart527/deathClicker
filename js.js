@@ -31,6 +31,8 @@ Page 11 - Per Second
 Page 12 - Interval Setter
 
 Page 13 - Reset
+
+Page 14 - First Time
 */
 
 
@@ -123,4 +125,18 @@ function reset() {
 	localStorage.clickPowerstat = 1;
 	localStorage.timePlayedstat = 0;
 	localStorage.perSecond = 0;
+}
+
+//\/_____________________________________________________________PAGE 14______________________________________________________________________________/\//
+
+function checkJoinTime() {
+	if (firstTime = "NaN") {
+	 reset();
+	 alert('Welcome);
+	} else if (firstTime = "null") {
+	 reset();
+	alert('Welcome);
+	} else if (firstTime = "Has Joined") {
+
+	}
 }
