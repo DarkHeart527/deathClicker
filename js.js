@@ -109,13 +109,13 @@ function perSecondMoney() {
 //\/_____________________________________________________________PAGE 12______________________________________________________________________________/\//
 
 function loadIntervals() {
+	checkJoinTime();
 	setInterval( function() { addTime(); }, 1000);
 	setInterval( function() { timeDisplay(); }, 1000);
 	setInterval( function() { declare(); }, 1);
 	setInterval( function() { perSecondMoney(); }, 1000);
 	setInterval( function() { saver() }, 10);
 	setTimeout( function() { statLoader() }, 5);
-	setTimeout( function() { checkJoinTime() }, 3);
 }
 
 //\/_____________________________________________________________PAGE 13______________________________________________________________________________/\//
