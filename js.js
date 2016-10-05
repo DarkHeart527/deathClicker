@@ -84,7 +84,6 @@ function saver() {
 	localStorage.clickPowerstat = clickPower;
 	localStorage.timePlayedstat = timePlayed;
 	localStorage.perSecondstat = perSecond;
-	localStorage.setItem('firstTimestat', firstTime);
 }
 
 //\/_____________________________________________________________PAGE 9______________________________________________________________________________/\//
@@ -139,10 +138,12 @@ function checkJoinTime() {
 	 reset();
 	 alert('Welcome');
 	 firstTime = "Has Joined";
+	 localStorage.setItem('firstTimestat', "Has Joined");
 	} else if (firstTime = "null") {
 	 reset();
 	 alert('Welcome');
 	 firstTime = "Has Joined";
+	 localStorage.setItem('firstTimestat', "Has Joined");
 	} else if (firstTime = "Has Joined") {
 	 alert('Welcome Back');
 	}
