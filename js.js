@@ -93,7 +93,7 @@ function statLoader() {
 	Money =  Number(localStorage.Moneystat);
 	clickPower =  Number(localStorage.clickPowerstat);
 	timePlayed = Number(localStorage.timePlayedstat);
-	firstTime = localStorage.getItem('firstJoinstat');
+	firstTime = localStorage.getItem('firstTimestat');
 }
 //\/_____________________________________________________________PAGE 10______________________________________________________________________________/\//
 
@@ -115,7 +115,8 @@ function loadIntervals() {
 	setInterval( function() { declare(); }, 1);
 	setInterval( function() { perSecondMoney(); }, 1000);
 	setInterval( function() { saver() }, 10);
-	setTimeout( function() { statLoader() }, 5)
+	setTimeout( function() { statLoader() }, 5);
+	setTimeout( function() { checkJoinTime() }, 6);
 }
 
 //\/_____________________________________________________________PAGE 13______________________________________________________________________________/\//
