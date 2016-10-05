@@ -49,6 +49,8 @@ var Money = null;
 var clickPower = null;
 var perSecond = null;
 
+var firstTime;
+
 function declare() {
  Money = Money;
  clickPower = clickPower;
@@ -82,6 +84,7 @@ function saver() {
 	localStorage.clickPowerstat = clickPower;
 	localStorage.timePlayedstat = timePlayed;
 	localStorage.perSecondstat = perSecond;
+	localStorage.setItem('firstTimestat', firstTime);
 }
 
 //\/_____________________________________________________________PAGE 9______________________________________________________________________________/\//
@@ -90,6 +93,7 @@ function statLoader() {
 	Money =  Number(localStorage.Moneystat);
 	clickPower =  Number(localStorage.clickPowerstat);
 	timePlayed = Number(localStorage.timePlayedstat);
+	firstTime = localStorage.getItem('firstJoinstat');
 }
 //\/_____________________________________________________________PAGE 10______________________________________________________________________________/\//
 
