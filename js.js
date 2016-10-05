@@ -116,7 +116,7 @@ function loadIntervals() {
 	setInterval( function() { perSecondMoney(); }, 1000);
 	setInterval( function() { saver() }, 10);
 	setTimeout( function() { statLoader() }, 5);
-	setTimeout( function() { checkJoinTime() }, 6);
+	setTimeout( function() { checkJoinTime() }, 3);
 }
 
 //\/_____________________________________________________________PAGE 13______________________________________________________________________________/\//
