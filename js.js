@@ -144,6 +144,6 @@ function checkJoinTime() {
 	 alert('Welcome');
 	 firstTime = "Has Joined";
 	} else if (firstTime = "Has Joined") {
-
+	 alert('Welcome Back');
 	}
 }
