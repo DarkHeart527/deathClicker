@@ -136,10 +136,10 @@ function reset() {
 function checkJoinTime() {
 	if (firstTime = "NaN") {
 	 reset();
-	 alert('Welcome);
+	 alert('Welcome');
 	} else if (firstTime = "null") {
 	 reset();
-	alert('Welcome);
+	alert('Welcome');
 	} else if (firstTime = "Has Joined") {
 
 	}
