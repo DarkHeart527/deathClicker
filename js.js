@@ -29,6 +29,8 @@ Page 10 - Displays
 Page 11 - Per Second
 
 Page 12 - Interval Setter
+
+Page 13 - Reset
 */
 
 
@@ -92,13 +94,13 @@ function timeDisplay() {
 	console.info ("| Time Played: ",timePlayed,"| Click Power: ", clickPower,"| Money: ", Money,"| Money Per Second: ", perSecond);
 }
 
-//\/_____________________________________________________________PAGE 10______________________________________________________________________________/\//
+//\/_____________________________________________________________PAGE 11______________________________________________________________________________/\//
 
 function perSecondMoney() {
 	Money = Money + perSecond;
 }
 
-//\/_____________________________________________________________PAGE 10______________________________________________________________________________/\//
+//\/_____________________________________________________________PAGE 12______________________________________________________________________________/\//
 
 function loadIntervals() {
 	setInterval( function() { addTime(); }, 1000);
@@ -107,4 +109,13 @@ function loadIntervals() {
 	setInterval( function() { perSecondMoney(); }, 1000);
 	setInterval( function() { saver() }, 10);
 	setTimeout( function() { statLoader() }, 5)
+}
+
+//\/_____________________________________________________________PAGE 13______________________________________________________________________________/\//
+
+function reset() {
+	timePlayed = 0;
+	Money = 0;
+	clickPower = 0;
+	perSecond = 0;
 }
