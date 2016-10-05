@@ -44,7 +44,7 @@ var taxAndFee = 1.25;
 /* Required Variables */
 var timePlayed = null;
 var Money = null;
-var clickPower = 1;
+var clickPower = null;
 var perSecond = null;
 
 function declare() {
@@ -79,6 +79,7 @@ function saver() {
 	localStorage.Moneystat = Money;
 	localStorage.clickPowerstat = clickPower;
 	localStorage.timePlayedstat = timePlayed;
+	localStorage.perSecondstat = perSecond;
 }
 
 //\/_____________________________________________________________PAGE 9______________________________________________________________________________/\//
@@ -116,6 +117,10 @@ function loadIntervals() {
 function reset() {
 	timePlayed = 0;
 	Money = 0;
-	clickPower = 0;
+	clickPower = 1;
 	perSecond = 0;
+	localStorage.Moneystat = 0;
+	localStorage.clickPowerstat = 0;
+	localStorage.timePlayedstat = 0;
+	localStorage.perSecond = 0;
 }
