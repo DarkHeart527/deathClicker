@@ -120,7 +120,7 @@ function reset() {
 	clickPower = 1;
 	perSecond = 0;
 	localStorage.Moneystat = 0;
-	localStorage.clickPowerstat = 0;
+	localStorage.clickPowerstat = 1;
 	localStorage.timePlayedstat = 0;
 	localStorage.perSecond = 0;
 }
