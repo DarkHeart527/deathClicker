@@ -27,10 +27,12 @@ body {
 
 .clickArea::after {
  color: lightblue;
+ font-size: 25px;
  content: 'Kill Someone';  
 }
 
 .clickArea:active::after {
  color: blue;
+ font-size: 25px;
  content: 'Kill Someone';
 }
