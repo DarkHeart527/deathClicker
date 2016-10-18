@@ -12,3 +12,11 @@ body {
  color: blue;
  font-size: 50px;
 }
+
+.clickArea {
+ background: url("pic1.jpg");  
+}
+
+.clickArea:active {
+ background: url("pic2.jpg");  
+}
