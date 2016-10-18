@@ -20,6 +20,6 @@ body {
  padding: 3px;
 }
 
-.clickArea:hover {
+.clickArea:active {
  background-color: lightblue;
 }
