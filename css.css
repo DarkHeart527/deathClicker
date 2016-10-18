@@ -24,3 +24,7 @@ body {
 .clickArea:active {
  background-color: lightblue;
 }
+
+.clickArea::after {
+ content: 'Kill Someone';  
+}
