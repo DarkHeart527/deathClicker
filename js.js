@@ -80,11 +80,11 @@ function checkJoinTime() {
 	 alert('Welcome');
 	 reset();
 	 localStorage.join = 1;
-	} else if (localStorage.join = "0") {
+	} else if (localStorage.join = 0) {
 	 alert('Welcome');
 	 reset();
 	 localStorage.join = 1;
-	} else if (localStorage.join = "1") {
+	} else if (localStorage.join = 1) {
 	 alert('Welcome Back');
 	}
 }
