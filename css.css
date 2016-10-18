@@ -3,27 +3,7 @@
    background-color: transparent;
 }
 
-.btn-Data-Kill::selection {
-   color: black;
-   background-color: transparent;
-}
-
-.btn-Data-Kill:hover {
-   cursor: pointer;
-}
-
-.btn-Data-Kill {
-   background-color: yellow;
-   opacity: .5;
-   width: 15%;
-   height: 15%;
-   margin-top: 15px;
-   position: absolute;
-}
-
-.picBehindButton {
-   margin-top: 15px;
-   width: 15%;
-   height: 15%;
-   position: absolute;
+.head {
+ color: blue;
+ font-size: 50px;
 }
