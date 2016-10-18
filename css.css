@@ -30,7 +30,7 @@ body {
  content: 'Kill Someone';  
 }
 
-.clickArea::after:active {
+.clickArea:active::after {
  color: blue;
  content: 'Kill Someone';
 }
