@@ -45,6 +45,10 @@ Page 14 - First Time
 
 //\/_____________________________________________________________PAGE 3______________________________________________________________________________/\//
 
+function clickAreaClicked() {
+ localStorage.Money = Number(localStorage.Money) + Number(localStorage.clickPower);	
+}
+
 //\/_____________________________________________________________PAGE 4______________________________________________________________________________/\//
 
 //\/_____________________________________________________________PAGE 5______________________________________________________________________________/\//
@@ -73,11 +77,13 @@ function checkJoinTime() {
 	 alert('Welcome');
 	 firstTime = "Has Joined";
 	 localStorage.setItem('firstTimestat', "Has Joined");
+	 reset();
 	} else if (firstTime = "null") {
 	 reset();
 	 alert('Welcome');
 	 firstTime = "Has Joined";
 	 localStorage.setItem('firstTimestat', "Has Joined");
+	 reset();
 	} else if (firstTime = "Has Joined") {
 	 alert('Welcome Back');
 	}
