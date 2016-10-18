@@ -72,19 +72,15 @@ function clickAreaClicked() {
 //\/_____________________________________________________________PAGE 14______________________________________________________________________________/\//
 
 function checkJoinTime() {
-	if (firstTime = "NaN") {
-	 reset();
+	if (localStorage.join = NaN) {
 	 alert('Welcome');
-	 firstTime = "Has Joined";
-	 localStorage.setItem('firstTimestat', "Has Joined");
 	 reset();
-	} else if (firstTime = "null") {
-	 reset();
+	 localStorage.join = 1;
+	} else if (localStorage.join = 0) {
 	 alert('Welcome');
-	 firstTime = "Has Joined";
-	 localStorage.setItem('firstTimestat', "Has Joined");
 	 reset();
-	} else if (firstTime = "Has Joined") {
+	 localStorage.join = 1;
+	} else if (localStorage.join = 1) {
 	 alert('Welcome Back');
 	}
 }
