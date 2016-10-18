@@ -3,6 +3,11 @@
    background-color: transparent;
 }
 
+body {
+ background-color: lightblue;
+ margin: 0px;
+}
+
 .head {
  color: blue;
  font-size: 50px;
