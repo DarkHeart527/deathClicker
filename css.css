@@ -15,6 +15,10 @@ body {
 
 .clickArea {
  background: url("pic1.jpg");  
+ width: 15%;
+ height: 15%;
+ background-color: blue;
+ padding: 1px;
 }
 
 .clickArea:active {
