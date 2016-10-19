@@ -15,8 +15,8 @@ body {
 }
 
 .clickArea { 
- width: 17%;
- height: 14%;
+ width: 100px;
+ height: 100px;
  background-color: blue;
  padding: 3px;
 }
