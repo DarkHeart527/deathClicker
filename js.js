@@ -77,16 +77,15 @@ function reset() {
 //\/_____________________________________________________________PAGE 14______________________________________________________________________________/\//
 
 function checkJoinTime() {
-	if (localStorage.join = NaN) {
+	if (localStorage.join == NaN) {
 	 alert('Welcome');
 	 reset();
 	 localStorage.join = 1;
-	} else if (localStorage.join = 0) {
-	 alert('Welcome');
-	 reset();
-	 localStorage.join = 1;
-	} else if (localStorage.join = 1) {
-	 alert('Welcome Back');
-		reset();
+	} else if (localStorage.join == null) {
+	alert('Welcome');
+	reset();
+	localStorage.join = 1;
+	} else {
+	alert('Welcome Back')	
 	}
 }
