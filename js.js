@@ -87,5 +87,6 @@ function checkJoinTime() {
 	 localStorage.join = 1;
 	} else if (localStorage.join = 1) {
 	 alert('Welcome Back');
+		reset();
 	}
 }
