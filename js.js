@@ -99,4 +99,5 @@ function checkJoinTime() {
 	} else {
 	alert('Welcome Back');
 	}
+	intSet();
 }
