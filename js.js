@@ -77,15 +77,18 @@ function reset() {
 //\/_____________________________________________________________PAGE 14______________________________________________________________________________/\//
 
 function checkJoinTime() {
-	if (localStorage.join == NaN) {
+	if (localStorage.join == "NaN") {
 	 alert('Welcome');
 	 reset();
 	 localStorage.join = 1;
-	} else if (localStorage.join == null) {
+	} else if (localStorage.join == "null") {
 	alert('Welcome');
 	reset();
 	localStorage.join = 1;
+	} else if (localStorage.join == null) {
+	alert('Welcome');
+	reset();
 	} else {
-	alert('Welcome Back')	
+	alert('Welcome Back');
 	}
 }
